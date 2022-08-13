@@ -1,0 +1,186 @@
+
+body {
+    background: #16253C;
+    position: relative;
+}
+
+.fix {
+    max-width: 398px;
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.container {
+    position: absolute;
+    width: 398px;
+    height: 642px;
+    left: 0;
+    top: 70px;
+  
+    background: #243652;
+    border-radius: 13px;
+    z-index: -10;
+}
+
+.hover {
+    position: absolute;
+    width: 346px;
+    height: 332px;
+    left: 1.625em;
+    top: 97px;
+    border-radius: 12px;
+    z-index: -9;
+    opacity: 1;
+}
+
+.cube {
+  position: absolute;
+  width: 346px;
+  height: 332px;
+  left: 1.625em;
+  top: 97px;
+
+  background: url(image-equilibrium.jpg);
+  border-radius: 12px;
+
+  //hover effects ( active stats )
+
+  &:hover  {
+    opacity: 0.1;
+  }
+
+
+}
+
+.info {
+    position: absolute;
+    width: 258px;
+    height: 47px;
+    left: 1.1em;
+    top: 430px;
+  
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 530;
+    font-size: 24px;
+    line-height: 30px;
+  
+    color: #FFFFFF;
+
+    &:hover {
+        color: #00FFF8;
+    }
+  
+}
+
+  .desc {
+    position: absolute;
+    width: 338px;
+    height: 73px;
+    left: 1.625em;
+    top: 485px;
+  
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+  
+    color: #8FB3EA;
+  
+  } 
+
+.cyan {
+    display: flex;
+    color: #00FFF8;
+    position: absolute;
+    width: 335px;
+    height: 20px;
+    left: 1.625em;
+    top: 586px;
+    margin: 0;
+    padding: 0;
+}
+
+p.text1 {
+    margin: 0;
+    margin-left: 10px;
+    top: 580px;
+}
+
+.time {
+    display: flex;
+    color: #8FB3EA;
+    position: absolute;
+    width: 335px;
+    height: 20px;
+    top: 592px;
+    left: 15.625em;
+    margin: 0;
+    padding: 0;
+}
+
+p.text2 {
+    margin: 0;
+    margin-left: 10px;
+    margin-top: -4px;
+}
+
+svg.line {
+    position: absolute;
+    top: 635px;
+    left: 1.625em;
+    margin: 0;
+    padding: 0;
+}
+
+div.creator img {
+    position: absolute;
+    left: 1.625em;
+    top: 644px;
+    margin: 0;
+    padding: 0;
+    width: 45px;
+    height: 45px;
+    border: 1.50px solid rgb(255, 253, 253);
+    border-radius: 50%;
+}
+
+p.creation {
+    position: absolute;
+    width: 338px;
+    height: 73px;
+    left: 4.8125em;
+    top: 639px;
+  
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+  
+    color: #8FB3EA;
+}
+
+span {
+    color: #FFFFFF;
+
+    &:hover {
+        color: #00FFF8;
+    }
+}
+
+
+
+
